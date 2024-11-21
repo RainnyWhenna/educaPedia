@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Itim&family=Love+Ya+Like+A+Sister&display=swap');
+
+/* Reset CSS */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+.cabecalho{
+    background-color: #6ceb46ea;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    color: black;
+}
+
+h3{
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+}
+
+p{
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: normal;
+    color: black;
+}
+
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li{
+    margin: 1px 0;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+}
+
+.titulo-com-imagem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+.imagem{
+    width: 30px;
+    height: auto;
+}
+
+.index-texto{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    height: 100vh;
+}
+
+.sobre-texto{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    height: 50vh;
+}
+
+.sites-texto{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.youtube-texto{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 25px;
+}
+
+.instagram-texto{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 25px;
+}
+
+.conteudo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    position: static;
+    background-color: #6ceb46ea;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodape{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+}
